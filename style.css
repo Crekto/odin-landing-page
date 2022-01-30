@@ -1,0 +1,175 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+}
+
+ul a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header ul{
+    display: flex;
+    gap: 24px;
+}
+
+.section-a{
+    background-color: #1f2937;
+    padding: 24px 23%;
+}
+
+.container-a{
+    display: flex;
+    padding: 128px 0;
+    justify-content: space-between;
+}
+
+.container-a h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.container-a p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.container-a button{
+    color: white;
+    padding: 8px 32px;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.container-a-left{
+    flex: 1;
+    margin-right: 48px;
+}
+
+.container-a-right{
+    background-color: rgba(189, 188, 188, 0.548);
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 24px;
+}
+
+
+/* ------ Section b ------ */
+
+.section-b{
+    padding: 24px 28.5%;
+}
+
+.section-b h2{
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    padding: 54px 0;
+}
+
+.container-b{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 84px;
+}
+
+.item-img{
+    height: 158px;
+    width: auto;
+    border: 3px blue solid;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.b-item{
+    text-align: center;
+    width: 158px;
+}
+
+/* -- section c --*/
+
+.section-c{
+    background-color: #E5E7EB;
+    color: #1f2937;
+    padding: 124px 29%;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.personality{
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: right;
+    margin-top: 12px;
+}
+
+/* -- section d -- */
+
+.section-d{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 128px 23%;
+    padding: 48px 98px;
+    font-size: 18px;
+    border-radius: 12px;
+}
+
+.call-to{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.section-d button{
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px white solid;
+    padding: 8px 36px;
+    border-radius: 12px;
+}
+
+/* -- footer -- */
+
+.footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    font-size: 18px;
+    padding: 36px 0;
+}
